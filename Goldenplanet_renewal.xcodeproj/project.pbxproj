@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D900AA690CFB453754BECB3 /* Pods_Goldenplanet_renewal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C257267B88837D509160B932 /* Pods_Goldenplanet_renewal.framework */; };
+		4415FC8F260880920016FD34 /* WeeKStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415FC8E260880920016FD34 /* WeeKStepViewController.swift */; };
+		446AD234265B871500B33D8C /* ObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AD233265B871500B33D8C /* ObjectViewController.swift */; };
+		44AAE22A26E617C000D3F6F7 /* GTM-K8429BL.json in Resources */ = {isa = PBXBuildFile; fileRef = 44AAE22926E617C000D3F6F7 /* GTM-K8429BL.json */; };
+		44AAE22C26E61D6900D3F6F7 /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE22B26E61D6900D3F6F7 /* GoogleAnalytics.swift */; };
+		44D5C8A025F20DF10033730C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D5C89F25F20DF10033730C /* GoogleService-Info.plist */; };
+		44D5C8A325F35D940033730C /* GAThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5C8A225F35D940033730C /* GAThread.swift */; };
+		44D5C8A725F5B1290033730C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D5C8A625F5B1290033730C /* HealthKit.framework */; };
+		44D5C8B125F5C69E0033730C /* TodayStepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5C8B025F5C69E0033730C /* TodayStepController.swift */; };
+		44D5C8B525F5DA580033730C /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5C8B425F5DA580033730C /* Health.swift */; };
+		44F297AC25E51D47005D53F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F297AB25E51D47005D53F6 /* AppDelegate.swift */; };
+		44F297AE25E51D47005D53F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F297AD25E51D47005D53F6 /* SceneDelegate.swift */; };
+		44F297B025E51D47005D53F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F297AF25E51D47005D53F6 /* ViewController.swift */; };
+		44F297B325E51D47005D53F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F297B125E51D47005D53F6 /* Main.storyboard */; };
+		44F297B525E51D49005D53F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F297B425E51D49005D53F6 /* Assets.xcassets */; };
+		44F297B825E51D49005D53F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F297B625E51D49005D53F6 /* LaunchScreen.storyboard */; };
+		44F297F525E62E0D005D53F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F297F425E62E0D005D53F6 /* SecondViewController.swift */; };
+		44F297F825E658F8005D53F6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F297F725E658F8005D53F6 /* HeaderView.swift */; };
+		44F297FC25E67E5E005D53F6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F297FB25E67E5E005D53F6 /* CollectionViewCell.swift */; };
+		44F2980425ED0A36005D53F6 /* GAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F2980325ED0A36005D53F6 /* GAViewController.swift */; };
+		44F2980825EE5986005D53F6 /* GACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F2980725EE5986005D53F6 /* GACollectionViewCell.swift */; };
+		44F2980B25EE666F005D53F6 /* GATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F2980A25EE666F005D53F6 /* GATableViewController.swift */; };
+		44F2980F25EE6A06005D53F6 /* GATableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F2980E25EE6A06005D53F6 /* GATableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4415FC8E260880920016FD34 /* WeeKStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeKStepViewController.swift; sourceTree = "<group>"; };
+		446AD233265B871500B33D8C /* ObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectViewController.swift; sourceTree = "<group>"; };
+		44AAE22426E0AA4D00D3F6F7 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		44AAE22926E617C000D3F6F7 /* GTM-K8429BL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-K8429BL.json"; sourceTree = SOURCE_ROOT; };
+		44AAE22B26E61D6900D3F6F7 /* GoogleAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAnalytics.swift; sourceTree = "<group>"; };
+		44D5C89F25F20DF10033730C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44D5C8A225F35D940033730C /* GAThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAThread.swift; sourceTree = "<group>"; };
+		44D5C8A525F5B1280033730C /* Goldenplanet_renewal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Goldenplanet_renewal.entitlements; sourceTree = "<group>"; };
+		44D5C8A625F5B1290033730C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		44D5C8B025F5C69E0033730C /* TodayStepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayStepController.swift; sourceTree = "<group>"; };
+		44D5C8B425F5DA580033730C /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		44F297A825E51D47005D53F6 /* Goldenplanet_renewal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goldenplanet_renewal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F297AB25E51D47005D53F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44F297AD25E51D47005D53F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44F297AF25E51D47005D53F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44F297B225E51D47005D53F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44F297B425E51D49005D53F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44F297B725E51D49005D53F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44F297B925E51D49005D53F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F297F425E62E0D005D53F6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		44F297F725E658F8005D53F6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		44F297FB25E67E5E005D53F6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		44F2980325ED0A36005D53F6 /* GAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAViewController.swift; sourceTree = "<group>"; };
+		44F2980725EE5986005D53F6 /* GACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACollectionViewCell.swift; sourceTree = "<group>"; };
+		44F2980A25EE666F005D53F6 /* GATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATableViewController.swift; sourceTree = "<group>"; };
+		44F2980E25EE6A06005D53F6 /* GATableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATableCell.swift; sourceTree = "<group>"; };
+		BB1F982FDEC1AA51223FC875 /* Pods-Goldenplanet_renewal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goldenplanet_renewal.release.xcconfig"; path = "Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal.release.xcconfig"; sourceTree = "<group>"; };
+		C257267B88837D509160B932 /* Pods_Goldenplanet_renewal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goldenplanet_renewal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EF155959D6A5788200F802 /* Pods-Goldenplanet_renewal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goldenplanet_renewal.debug.xcconfig"; path = "Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F297A525E51D47005D53F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D900AA690CFB453754BECB3 /* Pods_Goldenplanet_renewal.framework in Frameworks */,
+				44D5C8A725F5B1290033730C /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AAE21F26E0A7A900D3F6F7 /* container */ = {
+			isa = PBXGroup;
+			children = (
+				44AAE22926E617C000D3F6F7 /* GTM-K8429BL.json */,
+			);
+			path = container;
+			sourceTree = "<group>";
+		};
+		44F2979F25E51D47005D53F6 = {
+			isa = PBXGroup;
+			children = (
+				44F297AA25E51D47005D53F6 /* Goldenplanet_renewal */,
+				44F297A925E51D47005D53F6 /* Products */,
+				A29875DE378BD415838EC2CC /* Pods */,
+				E493127980456D24B05DF4B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44F297A925E51D47005D53F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44F297A825E51D47005D53F6 /* Goldenplanet_renewal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44F297AA25E51D47005D53F6 /* Goldenplanet_renewal */ = {
+			isa = PBXGroup;
+			children = (
+				44AAE21F26E0A7A900D3F6F7 /* container */,
+				44D5C8A525F5B1280033730C /* Goldenplanet_renewal.entitlements */,
+				44F297AB25E51D47005D53F6 /* AppDelegate.swift */,
+				44F297AD25E51D47005D53F6 /* SceneDelegate.swift */,
+				44F297AF25E51D47005D53F6 /* ViewController.swift */,
+				44F297F425E62E0D005D53F6 /* SecondViewController.swift */,
+				44F2980325ED0A36005D53F6 /* GAViewController.swift */,
+				44F2980A25EE666F005D53F6 /* GATableViewController.swift */,
+				44D5C8B025F5C69E0033730C /* TodayStepController.swift */,
+				4415FC8E260880920016FD34 /* WeeKStepViewController.swift */,
+				446AD233265B871500B33D8C /* ObjectViewController.swift */,
+				44F297B125E51D47005D53F6 /* Main.storyboard */,
+				44F297B425E51D49005D53F6 /* Assets.xcassets */,
+				44D5C89F25F20DF10033730C /* GoogleService-Info.plist */,
+				44F297B625E51D49005D53F6 /* LaunchScreen.storyboard */,
+				44F297B925E51D49005D53F6 /* Info.plist */,
+				44F297FB25E67E5E005D53F6 /* CollectionViewCell.swift */,
+				44F297F725E658F8005D53F6 /* HeaderView.swift */,
+				44F2980725EE5986005D53F6 /* GACollectionViewCell.swift */,
+				44F2980E25EE6A06005D53F6 /* GATableCell.swift */,
+				44D5C8A225F35D940033730C /* GAThread.swift */,
+				44D5C8B425F5DA580033730C /* Health.swift */,
+				44AAE22426E0AA4D00D3F6F7 /* header.h */,
+				44AAE22B26E61D6900D3F6F7 /* GoogleAnalytics.swift */,
+			);
+			path = Goldenplanet_renewal;
+			sourceTree = "<group>";
+		};
+		A29875DE378BD415838EC2CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5EF155959D6A5788200F802 /* Pods-Goldenplanet_renewal.debug.xcconfig */,
+				BB1F982FDEC1AA51223FC875 /* Pods-Goldenplanet_renewal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E493127980456D24B05DF4B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5C8A625F5B1290033730C /* HealthKit.framework */,
+				C257267B88837D509160B932 /* Pods_Goldenplanet_renewal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44F297A725E51D47005D53F6 /* Goldenplanet_renewal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F297BC25E51D49005D53F6 /* Build configuration list for PBXNativeTarget "Goldenplanet_renewal" */;
+			buildPhases = (
+				3832ACD842FD76DC1DFA8625 /* [CP] Check Pods Manifest.lock */,
+				44F297A425E51D47005D53F6 /* Sources */,
+				44F297A525E51D47005D53F6 /* Frameworks */,
+				44F297A625E51D47005D53F6 /* Resources */,
+				AAF85021D42B1CE1A017FA49 /* [CP] Embed Pods Frameworks */,
+				A9149376AF15245A4D7A8B1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goldenplanet_renewal;
+			productName = Goldenplanet_renewal;
+			productReference = 44F297A825E51D47005D53F6 /* Goldenplanet_renewal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44F297A025E51D47005D53F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					44F297A725E51D47005D53F6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 44F297A325E51D47005D53F6 /* Build configuration list for PBXProject "Goldenplanet_renewal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44F2979F25E51D47005D53F6;
+			productRefGroup = 44F297A925E51D47005D53F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44F297A725E51D47005D53F6 /* Goldenplanet_renewal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44F297A625E51D47005D53F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F297B825E51D49005D53F6 /* LaunchScreen.storyboard in Resources */,
+				44AAE22A26E617C000D3F6F7 /* GTM-K8429BL.json in Resources */,
+				44D5C8A025F20DF10033730C /* GoogleService-Info.plist in Resources */,
+				44F297B525E51D49005D53F6 /* Assets.xcassets in Resources */,
+				44F297B325E51D47005D53F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3832ACD842FD76DC1DFA8625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Goldenplanet_renewal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9149376AF15245A4D7A8B1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF85021D42B1CE1A017FA49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Goldenplanet_renewal/Pods-Goldenplanet_renewal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44F297A425E51D47005D53F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F2980B25EE666F005D53F6 /* GATableViewController.swift in Sources */,
+				44F297F825E658F8005D53F6 /* HeaderView.swift in Sources */,
+				44F2980425ED0A36005D53F6 /* GAViewController.swift in Sources */,
+				44F297F525E62E0D005D53F6 /* SecondViewController.swift in Sources */,
+				4415FC8F260880920016FD34 /* WeeKStepViewController.swift in Sources */,
+				44D5C8A325F35D940033730C /* GAThread.swift in Sources */,
+				44F297FC25E67E5E005D53F6 /* CollectionViewCell.swift in Sources */,
+				44F2980825EE5986005D53F6 /* GACollectionViewCell.swift in Sources */,
+				44D5C8B525F5DA580033730C /* Health.swift in Sources */,
+				44AAE22C26E61D6900D3F6F7 /* GoogleAnalytics.swift in Sources */,
+				44F297B025E51D47005D53F6 /* ViewController.swift in Sources */,
+				44F297AC25E51D47005D53F6 /* AppDelegate.swift in Sources */,
+				446AD234265B871500B33D8C /* ObjectViewController.swift in Sources */,
+				44D5C8B125F5C69E0033730C /* TodayStepController.swift in Sources */,
+				44F2980F25EE6A06005D53F6 /* GATableCell.swift in Sources */,
+				44F297AE25E51D47005D53F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44F297B125E51D47005D53F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F297B225E51D47005D53F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44F297B625E51D49005D53F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F297B725E51D49005D53F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44F297BA25E51D49005D53F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44F297BB25E51D49005D53F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44F297BD25E51D49005D53F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EF155959D6A5788200F802 /* Pods-Goldenplanet_renewal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Goldenplanet_renewal/Goldenplanet_renewal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 945Y4FNT8B;
+				INFOPLIST_FILE = Goldenplanet_renewal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goldenplanet.Goldenplanet-renewal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Goldenplanet_renewal/header.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44F297BE25E51D49005D53F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1F982FDEC1AA51223FC875 /* Pods-Goldenplanet_renewal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Goldenplanet_renewal/Goldenplanet_renewal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 945Y4FNT8B;
+				INFOPLIST_FILE = Goldenplanet_renewal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goldenplanet.Goldenplanet-renewal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_OBJC_BRIDGING_HEADER = Goldenplanet_renewal/header.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44F297A325E51D47005D53F6 /* Build configuration list for PBXProject "Goldenplanet_renewal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F297BA25E51D49005D53F6 /* Debug */,
+				44F297BB25E51D49005D53F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F297BC25E51D49005D53F6 /* Build configuration list for PBXNativeTarget "Goldenplanet_renewal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F297BD25E51D49005D53F6 /* Debug */,
+				44F297BE25E51D49005D53F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44F297A025E51D47005D53F6 /* Project object */;
+}
