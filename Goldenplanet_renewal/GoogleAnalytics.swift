@@ -163,7 +163,6 @@ class GA{
             if key.contains("title"){
                 let value = try Errorfunction.TypeCasting(jsondata: json, CheckValue: key)
                 GAData.setValue(value, forKey: AnalyticsParameterScreenName)
-                GA4Data.setValue(value, forKey: AnalyticsParameterScreenName)
             }
             //하이브리드 공용 맞춤 측정 기준
             if key.contains("dimension") || key.contains("metric") {
@@ -174,17 +173,14 @@ class GA{
             if key.lowercased().contains("category"){
                 let value = try Errorfunction.TypeCasting(jsondata: json, CheckValue: key)
                 GAData.setValue(value, forKey: key)
-                GA4Data.setValue(value, forKey: key)
             }
             if key.lowercased().contains("action"){
                 let value = try Errorfunction.TypeCasting(jsondata: json, CheckValue: key)
                 GAData.setValue(value, forKey: key)
-                GA4Data.setValue(value, forKey: key)
             }
             if key.lowercased().contains("label"){
                 let value = try Errorfunction.TypeCasting(jsondata: json, CheckValue: key)
                 GAData.setValue(value, forKey: key)
-                GA4Data.setValue(value, forKey: key)
             }
             if key.lowercased().contains("noninteraction"){ GAData.setValue("1", forKey: key)}
         }
@@ -196,13 +192,11 @@ class GA{
         GA.init().setGA4Commondata(Type: "event_param", min: 31, max: 32)
 
         let addData = try Errorfunction.ObjectTypeCasting(CheckDictionary: CommonData.sharedInstace().Parameter_Data)
-        GA4Data.addEntries(from: addData)
         
         if HybridType.contains("screen"){
             //GA로 데이터를 적재하는 시점
             //GTM 내에서 설정할 예정이며, Firebase 이벤트는 차단 설정
-            GADataSend(type: "screenview", Data: GAData)
-            GADataSend(type: "APPWEB_screenview", Data: GA4Data)
+            Analytics.logEvent(AnalyticsEventScreenView, parameters: GAData as? [String : Any])
             self.DeleteData()
         }else{
             if json["Products"] != nil {
@@ -229,7 +223,6 @@ class GA{
                 EcommerceData.addEntries(from: GAData as! [AnyHashable : Any])
                 GADataSend(type: EcommerceStep, Data: EcommerceData)
             }else{
-                GADataSend(type: "gaevent", Data: GAData)
                 GADataSend(type: "event_click", Data: GA4Data)
             }
             self.DeleteData()

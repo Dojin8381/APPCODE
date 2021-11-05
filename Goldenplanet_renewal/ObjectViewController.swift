@@ -35,15 +35,6 @@ class ObjectViewController: UIViewController, WKUIDelegate, WKNavigationDelegate
 
         let request_url = URLRequest(url: URL(string: "http://210.114.9.23/GA_part/ga_jylee/bootstrap/index_DJKIM.html")!)
         HybridWeb.load(request_url)
-//        let Screen = NSMutableDictionary()
-//        Screen.setValue("ABC_탭선택_구분자_다시", forKey: "category")
-//        Screen.setValue("ABC_클릭", forKey: "action")
-//        Screen.setValue("{{선택값}}", forKey: "label")
-//        Screen.setValue("하이브리드 로드 전", forKey: AnalyticsParameterScreenName)
-       
-//        GA.init().GADataSend(type: "gaevent", Data: Screen)
-//        GA.init().GADataSend(type: "APPWEB_event", Data: Screen)
-        
         view.addSubview(self.HybridWeb)
     }
     
@@ -60,10 +51,3 @@ class ObjectViewController: UIViewController, WKUIDelegate, WKNavigationDelegate
         
     }
 }
-//if json["userId"] != nil{ Analytics.setUserID((json["userId"] as! String)) }
-//if json["title"] != nil {
-//    GAData.setValue(AnalyticsParameterScreenName, forKey: json["title"] as! String)
-//}
-//if json["location"] != nil {
-//    GAData.setValue(AnalyticsParameterScreenClass, forKey: json["location"] as! String)
-//}
